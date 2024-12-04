@@ -6,4 +6,12 @@ printf("A=%d B=%d,a,b);
 c=a+b;
 printf("RESULT=%d",c);
 }
-
+#include<stdio.h>
+int main()
+{
+int a,b,c;
+printf("Enter the Value of A and B\n");
+scanf("%d%d",&a,&b);
+c=a+b;
+printf("RESULT=%d",c);
+}
