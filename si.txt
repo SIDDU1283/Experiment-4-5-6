@@ -5,10 +5,25 @@ int main()
 {
 int a=10,b=20,c;
 printf("Before Swapping A=%d B=%d",a,b);
-a=a+b;
-b=a-b;
-a=a-b;
+c=a;
+a=b;
+b=c;
 printf("After Swapping A=%d B=%d",a,b);
+// sum
+// C Program to Swap Two Numbers using a 
+// Temporary Variable
+#include <stdio.h>
+
+int main() {
+    int a = 5, b = 10, temp;
+
+    // Swapping values of a and  b
+    temp = a;
+    a = b;
+    b = temp;
+
+    printf("a = %d, b = %d\n", a, b);
+    return 0;
 }
 //simple calculator
 #include <stdio.h>
