@@ -8,3 +8,4 @@ a=b;
 b=c;
 printf("a=%d,b=%d",b);
 }
+
