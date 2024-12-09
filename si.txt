@@ -10,3 +10,9 @@ b=a-b;
 a=a-b;
 printf("After Swapping A=%d B=%d",a,b);
 }
+#include<stdio.h>
+int main()
+{
+printf("hellon world');
+}
+
