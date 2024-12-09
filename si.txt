@@ -10,9 +10,33 @@ b=a-b;
 a=a-b;
 printf("After Swapping A=%d B=%d",a,b);
 }
+<<<<<<< HEAD
 #include<stdio.h>
 int main()
 {
 printf("hellon world');
+=======
+
+//program to find the size of data types
+#include<stdio.h>
+int main() {
+    int intType;
+    float floatType;
+    double doubleType;
+    char charType;
+
+    // sizeof evaluates the size of a variable
+    printf("Size of int: %zu bytes\n", sizeof(intType));
+    printf("Size of float: %zu bytes\n", sizeof(floatType));
+    printf("Size of double: %zu bytes\n", sizeof(doubleType));
+    printf("Size of char: %zu byte\n", sizeof(charType));
+
+    return 0;
+>>>>>>> 738927ade4d68370013dfc7ff0fa7809884f81ca
+}
+#include<stdio.h>
+int main()
+{
+printf("HELLO WORLD");
 }
 
