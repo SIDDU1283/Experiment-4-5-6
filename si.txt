@@ -5,8 +5,8 @@ int main()
 {
 int a=10,b=20,c;
 printf("Before Swapping A=%d B=%d",a,b);
-a=a+b;
-b=a-b;
-a=a-b;
+c=a;
+a=b;
+b=c;
 printf("After Swapping A=%d B=%d",a,b);
 }
